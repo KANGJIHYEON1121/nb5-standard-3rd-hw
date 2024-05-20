@@ -40,7 +40,7 @@ function App() {
           return (
             <li
               key={students.name}
-            >{`${students.name} - ${students.age}, ${students.grade}`}</li>
+            >{`${students.name} - ${students.age}, Grade: ${students.grade}`}</li>
           );
         })}
       </ul>
